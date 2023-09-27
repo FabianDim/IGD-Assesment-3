@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost-Normal-Green_0
+      name: Ghost-Normal-Green_Up
       rect:
         serializedVersion: 2
         x: 8
@@ -115,7 +115,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost-Normal-Green_1
+      name: Ghost-Normal-Green_Right
       rect:
         serializedVersion: 2
         x: 40
@@ -136,7 +136,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost-Normal-Green_2
+      name: Ghost-Normal-Green_Down
       rect:
         serializedVersion: 2
         x: 8
@@ -157,7 +157,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost-Normal-Green_3
+      name: Ghost-Normal-Green_Left
       rect:
         serializedVersion: 2
         x: 40
@@ -178,7 +178,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,10 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ghost-Normal-Green_0: -744457187
-      Ghost-Normal-Green_1: -1898048303
-      Ghost-Normal-Green_2: 1850320014
-      Ghost-Normal-Green_3: -2118562467
+      Ghost-Normal-Green_Down: 1850320014
+      Ghost-Normal-Green_Left: -2118562467
+      Ghost-Normal-Green_Right: -1898048303
+      Ghost-Normal-Green_Up: -744457187
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

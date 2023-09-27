@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost-Orange-Normalpng_0
+      name: Ghost-Orange-Normal_Up
       rect:
         serializedVersion: 2
         x: 8
@@ -115,7 +115,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost-Orange-Normalpng_1
+      name: Ghost-Orange-Normal_Right
       rect:
         serializedVersion: 2
         x: 40
@@ -136,7 +136,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost-Orange-Normalpng_2
+      name: Ghost-Orange-Normal_Down
       rect:
         serializedVersion: 2
         x: 8
@@ -157,7 +157,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost-Orange-Normalpng_3
+      name: Ghost-Orange-Normal_Left
       rect:
         serializedVersion: 2
         x: 40
@@ -178,7 +178,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,10 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ghost-Orange-Normalpng_0: 1610111875
-      Ghost-Orange-Normalpng_1: 238913437
-      Ghost-Orange-Normalpng_2: 1998198356
-      Ghost-Orange-Normalpng_3: 394781795
+      Ghost-Orange-Normal_Down: 1998198356
+      Ghost-Orange-Normal_Left: 394781795
+      Ghost-Orange-Normal_Right: 238913437
+      Ghost-Orange-Normal_Up: 1610111875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

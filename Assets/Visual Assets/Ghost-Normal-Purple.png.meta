@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost-Normal-Purple_0
+      name: Ghost-Normal-Purple_Up
       rect:
         serializedVersion: 2
         x: 8
@@ -115,7 +115,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost-Normal-Purple_1
+      name: Ghost-Normal-Purple_Right
       rect:
         serializedVersion: 2
         x: 40
@@ -136,7 +136,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost-Normal-Purple_2
+      name: Ghost-Normal-Purple_Down
       rect:
         serializedVersion: 2
         x: 8
@@ -157,7 +157,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost-Normal-Purple_3
+      name: Ghost-Normal-Purple_Left
       rect:
         serializedVersion: 2
         x: 40
@@ -178,7 +178,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,10 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ghost-Normal-Purple_0: -591526910
-      Ghost-Normal-Purple_1: 364438869
-      Ghost-Normal-Purple_2: 286557857
-      Ghost-Normal-Purple_3: -1709217629
+      Ghost-Normal-Purple_Down: 286557857
+      Ghost-Normal-Purple_Left: -1709217629
+      Ghost-Normal-Purple_Right: 364438869
+      Ghost-Normal-Purple_Up: -591526910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
