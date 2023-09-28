@@ -581,7 +581,6 @@ GameObject:
   - component: {fileID: 994448258}
   - component: {fileID: 994448261}
   - component: {fileID: 994448260}
-  - component: {fileID: 994448259}
   m_Layer: 0
   m_Name: PacStudent_0
   m_TagString: Untagged
@@ -596,29 +595,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994448257}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.59303147, y: 0.068671465, z: -0.061869424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 1, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1530209258}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!111 &994448259
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994448257}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &994448260
 Animator:
   serializedVersion: 5
@@ -629,7 +613,7 @@ Animator:
   m_GameObject: {fileID: 994448257}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7a7b197211d9e91459fb264f76e1e9dd, type: 2}
+  m_Controller: {fileID: 9100000, guid: b59b3338b08a1e446bd3fc5f71fced6f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
