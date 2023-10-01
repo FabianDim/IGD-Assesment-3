@@ -13,7 +13,7 @@ public class GameStart : MonoBehaviour
     void Start()
     {
         _gameIntro.Play();
-        _gameBack.PlayDelayed(13);
+        _gameBack.PlayDelayed(7);
     }
 
     // Update is called once per frame
