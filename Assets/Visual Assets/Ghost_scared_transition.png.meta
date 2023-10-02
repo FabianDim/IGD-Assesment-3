@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 455df31e47ead484cb08e5ada346ddad
+guid: 54380cbde6cefb644939972e1768a94f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost-Normal-Green_Up
+      name: Ghost_scared_transition_0
       rect:
         serializedVersion: 2
         x: 8
@@ -115,41 +115,20 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adda19b702b41454fb0786f5c27e178d
-      internalID: -744457187
+      spriteID: b1cf60093a5fed145875d7bfffdf83fc
+      internalID: -765026486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost-Normal-Green_Right
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 39
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aeb73eb231632c546a4bc96ee012d230
-      internalID: -1898048303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost-Normal-Green_Down
+      name: Ghost_scared_transition_1
       rect:
         serializedVersion: 2
         x: 8
@@ -157,35 +136,14 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4012b44d9c25c5b4abf5ede1986a9fce
-      internalID: 1850320014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost-Normal-Green_Left
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 7
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17e1bf587c15cdb4f8cf860d4c005a8c
-      internalID: -2118562467
+      spriteID: 82da8092bc3cbcf4bac87bbc517abf09
+      internalID: -477022903
       vertices: []
       indices: 
       edges: []
@@ -201,10 +159,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ghost-Normal-Green_Down: 1850320014
-      Ghost-Normal-Green_Left: -2118562467
-      Ghost-Normal-Green_Right: -1898048303
-      Ghost-Normal-Green_Up: -744457187
+      Ghost_scared_transition_0: -765026486
+      Ghost_scared_transition_1: -477022903
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
