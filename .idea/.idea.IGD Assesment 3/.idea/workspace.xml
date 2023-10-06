@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2ecefc4-a3ca-45fa-bf4c-e2e79fade6bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PacStudent _Death.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PacStudent _Death.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PacStudent_0.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PacStudent_0.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Clips/Background-Game Start.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Clips/Background-Game Start.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Clips/Background-Game Start.wav.asd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Clips/Background-Game Start.wav.asd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio Scripts/GameStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Audio Scripts/GameStart.cs" afterDir="false" />
-    </list>
+    <list default="true" id="d2ecefc4-a3ca-45fa-bf4c-e2e79fade6bd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +12,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement Scripts/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Tween.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -33,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Feature-Visual",
+    "git-widget-placeholder": "Feature-Movement",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
