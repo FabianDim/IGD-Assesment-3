@@ -7310,6 +7310,7 @@ GameObject:
   - component: {fileID: 1355782815}
   - component: {fileID: 1355782816}
   - component: {fileID: 1355782817}
+  - component: {fileID: 1355782818}
   m_Layer: 0
   m_Name: ghosts_normal_green
   m_TagString: Untagged
@@ -7404,6 +7405,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1355782818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355782814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b21441cfc96834cb7763282a223709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1430202471
 GameObject:
   m_ObjectHideFlags: 0
@@ -7415,6 +7428,7 @@ GameObject:
   - component: {fileID: 1430202472}
   - component: {fileID: 1430202473}
   - component: {fileID: 1430202474}
+  - component: {fileID: 1430202475}
   m_Layer: 0
   m_Name: ghosts_normal_blue
   m_TagString: Untagged
@@ -7509,6 +7523,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1430202475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430202471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b21441cfc96834cb7763282a223709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1468955105
 GameObject:
   m_ObjectHideFlags: 0
@@ -10742,6 +10768,7 @@ GameObject:
   - component: {fileID: 1953686064}
   - component: {fileID: 1953686065}
   - component: {fileID: 1953686066}
+  - component: {fileID: 1953686067}
   m_Layer: 0
   m_Name: ghosts_normal_orange
   m_TagString: Untagged
@@ -10836,6 +10863,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1953686067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953686063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b21441cfc96834cb7763282a223709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1986594694
 GameObject:
   m_ObjectHideFlags: 0
@@ -10847,6 +10886,7 @@ GameObject:
   - component: {fileID: 1986594695}
   - component: {fileID: 1986594696}
   - component: {fileID: 1986594697}
+  - component: {fileID: 1986594698}
   m_Layer: 0
   m_Name: ghosts_normal_purple
   m_TagString: Untagged
@@ -10941,6 +10981,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1986594698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986594694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b21441cfc96834cb7763282a223709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2011402968
 GameObject:
   m_ObjectHideFlags: 0

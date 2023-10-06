@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2ecefc4-a3ca-45fa-bf4c-e2e79fade6bd" name="Changes" comment="" />
+    <list default="true" id="d2ecefc4-a3ca-45fa-bf4c-e2e79fade6bd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Ghost_dead.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Ghost_dead.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Orange_Down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Orange_Down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Orange_Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Orange_Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Orange_Up.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Orange_Up.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Orange_left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Orange_left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PacStudent_0.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PacStudent_0.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Purple_Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Purple_Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Purple_down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Purple_down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/ScaredState.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/ScaredState.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/blue_down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/blue_down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/blue_left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/blue_left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/blue_right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/blue_right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/blue_up.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/blue_up.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/green_down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/green_down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/green_left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/green_left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/green_right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/green_right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/green_up.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/green_up.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/purple_left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/purple_left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/purple_up.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/purple_up.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/transition_clip.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/transition_clip.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
