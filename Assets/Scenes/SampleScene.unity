@@ -6618,6 +6618,8 @@ GameObject:
   - component: {fileID: 994448258}
   - component: {fileID: 994448261}
   - component: {fileID: 994448260}
+  - component: {fileID: 994448262}
+  - component: {fileID: 994448263}
   m_Layer: 0
   m_Name: PacStudent_0
   m_TagString: Untagged
@@ -6633,7 +6635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994448257}
   m_LocalRotation: {x: 0, y: 0.026176924, z: 0, w: 0.99965733}
-  m_LocalPosition: {x: -0.83, y: 6.16, z: 0.15}
+  m_LocalPosition: {x: -1.35, y: 6.16, z: 0.15}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6712,6 +6714,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &994448262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994448257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005e3252996f566449f8b3b42b63e022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 994448257}
+--- !u!114 &994448263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994448257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31d892086bdbe64e8ea5996c8c452d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1007047670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5486815595108614483, guid: 9a0c48ae591d3c54fab4426d4a62684e, type: 3}
@@ -7688,7 +7715,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530209257}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.59303147, y: -0.068671465, z: 0.061869424}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

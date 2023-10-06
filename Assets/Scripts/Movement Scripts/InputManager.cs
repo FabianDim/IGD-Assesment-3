@@ -16,7 +16,7 @@ public class InputManager : MonoBehaviour
     
     void Move()
     {
-        tweener.AddTween(item.transform, item.transform.position, new Vector3(-6.78f, 13.47f, 0.0f), 3.5f);
+        tweener.AddTween(item.transform, item.transform.position, new Vector3(3.52f, 6.16f, 0.0f), 3.5f);
         
         // tweener.AddTween(item.transform, item.transform.position, new Vector3(-6.78f, 9.51f, 0.0f), 3.5f);
 // =======
