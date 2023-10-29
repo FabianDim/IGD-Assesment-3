@@ -49,10 +49,8 @@ public class Tweener : MonoBehaviour
 
             if (distanceToTarget <= 0.1f)
             {
-// <<<<<<< Updated upstream
-// =======
                 _animator.SetTrigger("Direction");
-// >>>>>>> Stashed changes
+
                 activeTween.Target.position = activeTween.EndPos;
                 activeTween = null;
             }

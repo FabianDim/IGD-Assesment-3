@@ -9,14 +9,14 @@ public class InputManager : MonoBehaviour
     
     void Start()
     {
-        tweener = GetComponent<Tweener>(); 
-        Invoke("Move", 7);
+        tweener = GetComponent<Tweener>();
+        Move();
     }
     
     
     void Move()
     {
-        tweener.AddTween(item.transform, item.transform.position, new Vector3(3.52f, 6.16f, 0.0f), 3.5f);
+        tweener.AddTween(item.transform, item.transform.position, new Vector3(1152f, 541f, 0.0f), 10f);
         
         // tweener.AddTween(item.transform, item.transform.position, new Vector3(-6.78f, 9.51f, 0.0f), 3.5f);
 // =======
