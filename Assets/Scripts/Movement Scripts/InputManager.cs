@@ -6,6 +6,7 @@ using UnityEngine;
 public class InputManager : MonoBehaviour
 {
     [SerializeField] private GameObject borderItems;
+    
 
     private Tweener tweener;
     private Vector3 first = new Vector3(1152f, 541f, 0.0f);
@@ -21,18 +22,17 @@ public class InputManager : MonoBehaviour
 
     private void Update()
     {
-        MoveRight();
+        Move();
     }
 
 
-    void MoveRight()
+    void Move()
     {
         if (tweener.activeTween == null)
         {
             tweener.AddTween(borderItems.transform, borderItems.transform.position, new Vector3(1152f, 541f, 0.0f), 10f);
             if(borderItems.transform.position.Equals(first))
             {
-                borderItems.transform.rotation = Quaternion.Euler(0, 0, 180);
                 tweener.AddTween(borderItems.transform, borderItems.transform.position, new Vector3(1152f, 795f, 0.0f), 3f);
             }
             if(borderItems.transform.position.Equals(second))

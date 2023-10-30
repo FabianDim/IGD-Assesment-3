@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d2ecefc4-a3ca-45fa-bf4c-e2e79fade6bd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IGD Assesment 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IGD Assesment 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/GhostAnimator_Scared.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/GhostAnimator_Scared.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/InputManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +105,7 @@
       <workItem from="1696156508593" duration="739000" />
       <workItem from="1698217890212" duration="606000" />
       <workItem from="1698572460664" duration="5955000" />
-      <workItem from="1698626341189" duration="13149000" />
+      <workItem from="1698626341189" duration="15441000" />
     </task>
     <servers />
   </component>
