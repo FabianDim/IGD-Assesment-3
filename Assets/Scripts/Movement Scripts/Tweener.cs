@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class Tweener : MonoBehaviour
 {
-    private Tween activeTween;
+    public Tween activeTween;
 
     private Animator _animator;
 
