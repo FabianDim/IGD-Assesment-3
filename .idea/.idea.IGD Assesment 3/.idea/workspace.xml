@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d2ecefc4-a3ca-45fa-bf4c-e2e79fade6bd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IGD Assesment 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IGD Assesment 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/shadow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/shadow.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Desktop/Uni(offline)/2023-Spring/Intro to Game Dev/Lab Week 10 - Activity/Lab Week 10 - Activity/Assets/Scripts/UI Manager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation Scripts/DeadAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement Scripts/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Tween.cs" root0="FORCE_HIGHLIGHTING" />
@@ -104,6 +108,7 @@
       <workItem from="1698572460664" duration="5955000" />
       <workItem from="1698626341189" duration="15448000" />
       <workItem from="1698647973718" duration="52000" />
+      <workItem from="1698713992427" duration="1669000" />
     </task>
     <servers />
   </component>
