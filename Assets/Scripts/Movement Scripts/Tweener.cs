@@ -34,7 +34,7 @@ public class Tweener : MonoBehaviour
 
                 _animator.ResetTrigger("Direction");
 
-                float timeFraction = (Time.time - activeTween.StartTime) / activeTween.Duration;
+                float timeFraction = ((Time.time - activeTween.StartTime) / activeTween.Duration) * Time.deltaTime;
 
                 activeTween.Target.position = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, timeFraction);
             }
