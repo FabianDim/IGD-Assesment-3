@@ -9,7 +9,7 @@ public class InputManager : MonoBehaviour
     
 
     private Tweener tweener;
-    private Vector3 first = new Vector3(504.8f, 116, 0.0f);
+    // private Transform first = new borderItems.transform.position;
     private Vector3 second = new Vector3(504.8f, 368.7f, 0.0f);
     private Vector3 third = new Vector3(-502.5f, 368.7f, 0.0f);
     
@@ -30,8 +30,8 @@ public class InputManager : MonoBehaviour
     {
         if (tweener.activeTween == null)
         {
-            tweener.AddTween(borderItems.transform, borderItems.transform.position, new Vector3(1073f, 480.4593f, 0.0f), 10f);
-            if(borderItems.transform.position.Equals(first))
+            // tweener.AddTween(borderItems.transform, borderItems.transform.position, new Vector3(borderItems.transform.position+1/, 480.4593f, 0.0f), 10f);
+            // if(borderItems.transform.position.Equals(first))
             {
                 tweener.AddTween(borderItems.transform, borderItems.transform.position, new Vector3(504.8f, 368.7f, 0.0f), 3f);
             }

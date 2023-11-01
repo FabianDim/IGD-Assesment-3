@@ -58,23 +58,19 @@ public class PacStudentController : MonoBehaviour
         }
 
     }
-    private IEnumerator Move(Vector2 direction)
+    private IEnumerator Move(Vector3 direction)
     {
         isMoving = true;
-        Vector2 startPosition = transform.position;
-        Vector2 endPosition = startPosition + (direction * gridSize);
+        Vector3 startPosition = transform.position;
+        Vector3 endPosition = startPosition + (direction * gridSize);
         float elapsedTime = 0;
         while (elapsedTime < moveDuration)
         {
             elapsedTime += Time.deltaTime;
             float percent = elapsedTime / moveDuration;
-            transform.position = Vector2.Lerp(startPosition, endPosition, percent);
+            transform.position = Vector3.Lerp(startPosition, endPosition, percent);
             yield return null;
         }
-
-        
-        
-        
         isMoving = false;
     }
 }
