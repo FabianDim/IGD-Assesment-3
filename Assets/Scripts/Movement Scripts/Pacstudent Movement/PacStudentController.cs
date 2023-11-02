@@ -9,6 +9,7 @@ public class PacStudentController : MonoBehaviour
     [SerializeField] private bool isRepeatedMovement = false;
     [SerializeField] private float moveDuration = 0.1f;
     [SerializeField] private float gridSize = 1f;
+    private KeyCode _lastInput;
 
     private bool isMoving = false;
     
@@ -20,42 +21,27 @@ public class PacStudentController : MonoBehaviour
 
     private void Update()
     {
-        Move();
-    }
 
-
-    void Move()
-    {
-        System.Func<KeyCode, bool> inputFunction;
-        if (!isMoving)
-        {
-            if (isRepeatedMovement)
+            if (Input.GetKey(KeyCode.W))
             {
-                inputFunction = Input.GetKey;
-            }
-            else
-            {
-                inputFunction = Input.GetKeyDown;
-            }
-
-            if (inputFunction(KeyCode.W))
-            {
+                _lastInput = KeyCode.W;
                 StartCoroutine(Move(Vector2.up));
             }
-            else if (inputFunction(KeyCode.S))
+            else if (Input.GetKey(KeyCode.S))
             {
+                _lastInput = KeyCode.S;
                 StartCoroutine(Move(Vector2.down));
             }
-            else if (inputFunction(KeyCode.D))
+            else if (Input.GetKey(KeyCode.S))
             {
+                _lastInput = KeyCode.D;
                 StartCoroutine(Move(Vector2.right));
             }
-            else if (inputFunction(KeyCode.A))
+            else if (Input.GetKey(KeyCode.W))
             {
-                StartCoroutine(Move(Vector2.left));
+                _lastInput = KeyCode.A;
+                while(_lastInput == KeyCode.A) {StartCoroutine(Move(Vector2.left));}
             }
-            
-        }
 
     }
     private IEnumerator Move(Vector3 direction)
@@ -73,4 +59,5 @@ public class PacStudentController : MonoBehaviour
         }
         isMoving = false;
     }
+        
 }
