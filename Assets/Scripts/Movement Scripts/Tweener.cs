@@ -10,7 +10,9 @@ public class Tweener : MonoBehaviour
 {
     public Tween activeTween;
 
-    private Animator _animator;
+    // private Animator _animator;
+    
+    
 
 
     public void AddTween(Transform targetObject, Vector3 startPos, Vector3 endPos, float duration)
@@ -21,7 +23,7 @@ public class Tweener : MonoBehaviour
     
     private void Start()
     {
-        _animator = gameObject.GetComponent<Animator>();
+        // _animator = gameObject.GetComponent<Animator>();
     }
     
     void Update()
@@ -32,16 +34,16 @@ public class Tweener : MonoBehaviour
             if (distanceToTarget > 0.1f)
             {
 
-                _animator.ResetTrigger("Direction");
+                // _animator.ResetTrigger("Direction");
 
                 float timeFraction = ((Time.time - activeTween.StartTime) / activeTween.Duration) * Time.deltaTime;
-
+                
                 activeTween.Target.position = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, timeFraction);
             }
 
             if (distanceToTarget <= 0.1f)
             {
-                _animator.SetTrigger("Direction");
+                // _animator.SetTrigger("Direction");
 
                 activeTween.Target.position = activeTween.EndPos;
                 activeTween = null;

@@ -11,12 +11,11 @@ public class PacStudentController : MonoBehaviour
         private KeyCode lastkey;
         private Vector3 validPos;
         [SerializeField] private float gridUnit = 1.0f;
+        private bool isMoving = false;
 
         void Start()
         {
             tweener = GetComponent<Tweener>();
-
-
         }
 
         private void Update()
@@ -33,13 +32,13 @@ public class PacStudentController : MonoBehaviour
                     if (Input.GetKey(KeyCode.W))
                     {
                         lastkey = KeyCode.W;
-                        Vector3 targetPosition = pacStudent.transform.position + Vector3.up * gridUnit;
+                        Vector3 targetPosition = pacStudent.transform.position += Vector3.up * gridUnit;
                         MoveToTargetPosition(targetPosition);
                     }
                     if (Input.GetKey(KeyCode.D))
                     {
                         lastkey = KeyCode.D;
-                        Vector3 targetPosition = pacStudent.transform.position + Vector3.right * gridUnit;
+                        Vector3 targetPosition = pacStudent.transform.position += Vector3.right * gridUnit;
                         MoveToTargetPosition(targetPosition);
                     }
                 }

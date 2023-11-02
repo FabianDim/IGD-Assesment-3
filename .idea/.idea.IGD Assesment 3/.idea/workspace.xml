@@ -7,6 +7,7 @@
     <list default="true" id="d2ecefc4-a3ca-45fa-bf4c-e2e79fade6bd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IGD Assesment 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IGD Assesment 3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Pacstudent Movement/PacStudentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Pacstudent Movement/PacStudentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Tweener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Tweener.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +112,7 @@
       <workItem from="1698734876378" duration="4556000" />
       <workItem from="1698826908319" duration="9157000" />
       <workItem from="1698881282297" duration="4083000" />
-      <workItem from="1698887710357" duration="3364000" />
+      <workItem from="1698887710357" duration="7093000" />
     </task>
     <servers />
   </component>
