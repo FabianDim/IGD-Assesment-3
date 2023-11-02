@@ -3,61 +3,57 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+
 public class PacStudentController : MonoBehaviour
 {
-    // [SerializeField] private GameObject pacStudent;
-    [SerializeField] private bool isRepeatedMovement = false;
-    [SerializeField] private float moveDuration = 0.1f;
-    [SerializeField] private float gridSize = 1f;
-    private KeyCode _lastInput;
+        private Tweener tweener;
+        [SerializeField] private GameObject pacStudent;
+        private KeyCode lastkey;
+        private Vector3 validPos;
+        [SerializeField] private float gridUnit = 1.0f;
 
-    private bool isMoving = false;
-    
-    void Start()
-    {
-
-        
-    }
-
-    private void Update()
-    {
-
-            if (Input.GetKey(KeyCode.W))
-            {
-                _lastInput = KeyCode.W;
-                StartCoroutine(Move(Vector2.up));
-            }
-            else if (Input.GetKey(KeyCode.S))
-            {
-                _lastInput = KeyCode.S;
-                StartCoroutine(Move(Vector2.down));
-            }
-            else if (Input.GetKey(KeyCode.S))
-            {
-                _lastInput = KeyCode.D;
-                StartCoroutine(Move(Vector2.right));
-            }
-            else if (Input.GetKey(KeyCode.W))
-            {
-                _lastInput = KeyCode.A;
-                while(_lastInput == KeyCode.A) {StartCoroutine(Move(Vector2.left));}
-            }
-
-    }
-    private IEnumerator Move(Vector3 direction)
-    {
-        isMoving = true;
-        Vector3 startPosition = transform.position;
-        Vector3 endPosition = startPosition + (direction * gridSize);
-        float elapsedTime = 0;
-        while (elapsedTime < moveDuration)
+        void Start()
         {
-            elapsedTime += Time.deltaTime;
-            float percent = elapsedTime / moveDuration;
-            transform.position = Vector3.Lerp(startPosition, endPosition, percent);
-            yield return null;
+            tweener = GetComponent<Tweener>();
+
+
         }
-        isMoving = false;
+
+        private void Update()
+        {
+            // register key input to last input
+            // if no active tweens start tween in dir if last input
+            // if active tween cancel out of update
+
+            // in start tween check if position valid
+            // if no valid location in dir stop
+            // raycast with layer mask to find walls
+                if (tweener.activeTween == null)
+                {
+                    if (Input.GetKey(KeyCode.W))
+                    {
+                        lastkey = KeyCode.W;
+                        Vector3 targetPosition = pacStudent.transform.position + Vector3.up * gridUnit;
+                        MoveToTargetPosition(targetPosition);
+                    }
+                    if (Input.GetKey(KeyCode.D))
+                    {
+                        lastkey = KeyCode.D;
+                        Vector3 targetPosition = pacStudent.transform.position + Vector3.right * gridUnit;
+                        MoveToTargetPosition(targetPosition);
+                    }
+                }
     }
-        
+        private void MoveToTargetPosition(Vector3 targetPosition)
+        {
+            if (IsPositionValid(targetPosition))
+            {
+                tweener.AddTween(pacStudent.transform, pacStudent.transform.position, targetPosition, 3.0f);
+            }
+        }
+
+        private bool IsPositionValid(Vector3 position)
+        {
+            return true;
+        }
 }
