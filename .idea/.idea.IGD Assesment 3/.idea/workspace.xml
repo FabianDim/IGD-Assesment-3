@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2ecefc4-a3ca-45fa-bf4c-e2e79fade6bd" name="Changes" comment="" />
+    <list default="true" id="d2ecefc4-a3ca-45fa-bf4c-e2e79fade6bd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IGD Assesment 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IGD Assesment 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/InputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Pacstudent Movement/PacStudentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Pacstudent Movement/PacStudentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Tweener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Tweener.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +20,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation Scripts/DeadAnim.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement Scripts/InputManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Tween.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Tweener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Uni(offline)/2023-Spring/Intro to Game Dev/Lab Week 10 - Activity/Lab Week 10 - Activity/Assets/Scripts/UI Manager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Uni(offline)/2023-Spring/Intro to Game Dev/Lab Week 8 - Activity/Assets/Scripts/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation Scripts/DeadAnim.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement Scripts/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Tween.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement Scripts/Tweener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/LevelGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -32,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Feature-Movement&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PacStudent-Cherry-Movement&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -95,6 +107,18 @@
       <updated>1696156421027</updated>
       <workItem from="1696156428849" duration="30000" />
       <workItem from="1696156508593" duration="739000" />
+      <workItem from="1698217890212" duration="606000" />
+      <workItem from="1698572460664" duration="5955000" />
+      <workItem from="1698626341189" duration="15448000" />
+      <workItem from="1698647973718" duration="52000" />
+      <workItem from="1698713992427" duration="4990000" />
+      <workItem from="1698734876378" duration="4556000" />
+      <workItem from="1698826908319" duration="9157000" />
+      <workItem from="1698881282297" duration="4083000" />
+      <workItem from="1698887710357" duration="7093000" />
+      <workItem from="1698910824408" duration="12125000" />
+      <workItem from="1698977531149" duration="10352000" />
+      <workItem from="1698992675927" duration="2307000" />
     </task>
     <servers />
   </component>
@@ -103,6 +127,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

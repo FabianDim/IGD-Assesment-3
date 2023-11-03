@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pellet
+  - Level1
+  - HighScore
+  - BestTime
+  - QuitButton
+  - Pel1
+  - Pel2
+  - Pel3
+  - Pel4
   layers:
   - Default
   - TransparentFX
