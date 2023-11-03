@@ -1,58 +1,104 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 public class PacStudentController : MonoBehaviour
 {
-        private Tweener tweener;
-        [SerializeField] private GameObject pacStudent;
-        private KeyCode lastkey;
-        private Vector3 validPos;
-        [SerializeField] private float gridUnit = 1.0f;
-        private bool isMoving = false;
+    private Tweener tweener;
+    [SerializeField] private GameObject pacStudent;
+    private GameObject[] pellets;
+    private KeyCode lastInput;
+    private Vector3 searchDirection;
 
-        void Start()
+    private void pelletSearch()
+    {
+        if (lastInput == KeyCode.D)
         {
-            tweener = GetComponent<Tweener>();
+            searchDirection = Vector3.right;
         }
-
-        private void Update()
+        if (lastInput == KeyCode.A)
         {
-            // register key input to last input
-            // if no active tweens start tween in dir if last input
-            // if active tween cancel out of update
-
-            // in start tween check if position valid
-            // if no valid location in dir stop
-            // raycast with layer mask to find walls
-                if (tweener.activeTween == null)
-                {
-                    if (Input.GetKey(KeyCode.W))
-                    {
-                        lastkey = KeyCode.W;
-                        Vector3 targetPosition = pacStudent.transform.position += Vector3.up * gridUnit;
-                        MoveToTargetPosition(targetPosition);
-                    }
-                    if (Input.GetKey(KeyCode.D))
-                    {
-                        lastkey = KeyCode.D;
-                        Vector3 targetPosition = pacStudent.transform.position += Vector3.right * gridUnit;
-                        MoveToTargetPosition(targetPosition);
-                    }
-                }
+            searchDirection = Vector3.left;
+        }
+        if (lastInput == KeyCode.W)
+        {
+            searchDirection = Vector3.up;
+        }
+        if (lastInput == KeyCode.S)
+        {
+            searchDirection = Vector3.down;
+        }
+        
     }
-        private void MoveToTargetPosition(Vector3 targetPosition)
+
+    private GameObject nearestPellet;
+
+    void Start()
+    {
+        pellets = GameObject.FindGameObjectsWithTag("Pellet");
+        tweener = GetComponent<Tweener>();
+
+        UpdateNearestPelletInDirection(searchDirection);
+    }
+
+    void Update()
+    {
+        // Example: Check for the nearest pellet in a specified direction every frame
+        if (Input.GetKey(KeyCode.D))
         {
-            if (IsPositionValid(targetPosition))
+            lastInput = KeyCode.D;
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            lastInput = KeyCode.A;
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            lastInput = KeyCode.W;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            lastInput = KeyCode.S;
+        }
+        Debug.Log("Last Input: " + lastInput);
+        Tween();
+    }
+
+    void UpdateNearestPelletInDirection(Vector3 direction)
+    {
+        float minDistance = float.MaxValue;
+        nearestPellet = null;
+
+        foreach (var pellet in pellets)
+        {
+            Vector3 toPellet = pellet.transform.position - pacStudent.transform.position;
+            float distance = Vector3.Distance(pacStudent.transform.position, pellet.transform.position);
+
+            // Check if the pellet is in the specified direction and closer
+            if (Vector3.Dot(toPellet.normalized, direction) > 0 && distance < minDistance)
             {
-                tweener.AddTween(pacStudent.transform, pacStudent.transform.position, targetPosition, 3.0f);
+                minDistance = distance;
+                nearestPellet = pellet;
             }
         }
 
-        private bool IsPositionValid(Vector3 position)
+        if (nearestPellet != null)
         {
-            return true;
+            Debug.Log("Nearest pellet in direction: " + nearestPellet.name);
         }
+    }
+
+    void Tween()
+    {
+        if (tweener.activeTween == null)
+        {
+            Debug.Log("Tween called");
+            if (nearestPellet != null)
+            {
+                Vector3 targetPosition = nearestPellet.transform.position;
+                tweener.AddTween(pacStudent.transform, pacStudent.transform.position, targetPosition, 1f);
+            }
+        }
+    }
+
 }
